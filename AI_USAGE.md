@@ -19,7 +19,7 @@ AI suggestions were reviewed and adapted during implementation. The application 
 The test suite completed successfully with 15 tests and no failures or errors at the time of verification.
 
 ## 4. Limitations and Responsibility
-AI-generated suggestions may contain mistakes or assumptions. They were not treated as automatically correct. Database behavior, reservation state transitions, stock updates, and concurrency handling require verification through code review and testing.
+AI-generated suggestions may contain mistakes, inaccuracies, or incorrect assumptions. I critically reviewed the generated suggestions, identified and corrected errors, refined the implementation, and verified the important functionality through code review and testing.
 
 I am responsible for understanding the submitted implementation, explaining the design decisions, and making any necessary corrections.
 
