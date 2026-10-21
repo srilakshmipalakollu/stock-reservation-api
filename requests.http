@@ -36,16 +36,3 @@ Content-Type: application/json
 ### Confirm reservation
 PUT http://localhost:8080/api/reservations/2/confirm
 
-PUT http://localhost:8080/api/reservations/2/cancel
-
-POST http://localhost:8080/api/reservations
-Content-Type: application/json
-
-{
-  "items": [
-    {
-      "productId": 1,
-      "quantity": 999
-    }
-  ]
-}
