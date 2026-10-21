@@ -1,0 +1,51 @@
+
+### Get all products
+GET http://localhost:8080/api/products
+
+### Create a reservation
+POST http://localhost:8080/api/reservations
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 1
+    }
+  ]
+}
+### Cancel reservation
+PUT http://localhost:8080/api/reservations/2/cancel
+
+### Confirm reservation
+PUT http://localhost:8080/api/reservations/2/confirm
+
+### Create a new reservation
+POST http://localhost:8080/api/reservations
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 999
+    }
+  ]
+}
+
+### Confirm reservation
+PUT http://localhost:8080/api/reservations/2/confirm
+
+PUT http://localhost:8080/api/reservations/2/cancel
+
+POST http://localhost:8080/api/reservations
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 999
+    }
+  ]
+}

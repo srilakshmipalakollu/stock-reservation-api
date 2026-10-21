@@ -24,11 +24,11 @@ Acceptance Critieria:
 - Authentication, frontend development, payments, and deployment are out of scope.
 
 3. Initial API Design
-.GET/api/products -- list inventory
-.POST/api/reservations -- create a reservation
-.GET/api/reservations/{id} -- retrieve a reservation
-.POST/api/reservations/{id}/confirm -- confirm a reservation
-.POST/api/reservations/{id}/cancel -- cancel a reservation
+GET/api/products -- list inventory
+POST/api/reservations -- create a reservation
+GET/api/reservations/{id} -- retrieve a reservation
+POST/api/reservations/{id}/confirm -- confirm a reservation
+POST/api/reservations/{id}/cancel -- cancel a reservation
 Use JSON request and response bodies. Return consistent error responses with suitable HTTP status codes.
 
 4. Initial database design
