@@ -211,28 +211,39 @@ For the concurrency test, run:
 ## Project Structure
 
 ```text
-src/
-  main/
-    java/
-      com/example/stock_reservation_api/
-        controller/
-        dto/
-        entity/
-        enums/
-        exception/
-        repository/
-        service/
-    resources/
-      application.properties
-  test/
-    java/
-    resources/
-      application.properties
-pom.xml
-mvnw
-README.md
-PLAN.md
-AI_USAGE.md
+stock-reservation-api/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/stock_reservation_api/
+│   │   │       ├── controller/
+│   │   │       ├── dto/
+│   │   │       ├── entity/
+│   │   │       ├── enums/
+│   │   │       ├── exception/
+│   │   │       ├── repository/
+│   │   │       └── service/
+│   │   └── resources/
+│   │       └── application.properties
+│   └── test/
+│       ├── java/
+│       └── resources/
+│           └── application.properties
+├── output ss/
+│   ├── 01-product-inventory.png
+│   ├── 02-create-reservation.png
+│   ├── 03-reservation-confirmation.png
+│   └── 04-automated-test-results.png
+├── .mvn/
+├── .gitignore
+├── .gitattributes
+├── pom.xml
+├── mvnw
+├── mvnw.cmd
+├── README.md
+├── PLAN.md
+├── AI_USAGE.md
+└── requests.http
 ```
 
 The exact package and folder names may vary as the project evolves.
